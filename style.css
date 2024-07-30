@@ -67,18 +67,13 @@ html {
 
 }
 
-.card:hover .card-front {
+.card:hover, .card:active .card-front {
     transform: rotateY(-180deg);
 }
-.card:hover .card-back {
+.card:hover, .card:active .card-back {
     transform: rotateY(0);
 }
-.card:active .card-front {
-    transform: rotateY(-180deg);
-}
-.card:active .card-back {
-    transform: rotateY(0);
-}
+
 
 .card:last-child .card-back {
     align-items: flex-end;
