@@ -73,10 +73,10 @@ html {
 .card:hover .card-back {
     transform: rotateY(0);
 }
-.card:hover:active .card-front {
+.card:active .card-front {
     transform: rotateY(-180deg);
 }
-.card:hover:active .card-back {
+.card:active .card-back {
     transform: rotateY(0);
 }
 
