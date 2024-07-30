@@ -67,10 +67,11 @@ html {
 
 }
 
-.card:hover .card-front {
+
+.card:hover:active .card-front {
     transform: rotateY(-180deg);
 }
-.card:hover .card-back {
+.card:hover:active .card-back {
     transform: rotateY(0);
 }
 
